@@ -3,9 +3,12 @@ The code here is a part of Speech-Enhancement performed used Dual Signal Transfo
 The dataset is taken from https://datashare.is.ed.ac.uk/handle/10283/1942.
 The above code is implemented only on a part of dataset in above link based on my system processor.
 For better results one needs to run the above code on GPU for atleast 100 epochs to evaluate the performance of model.
+Python Dependencies:
+Tensorflow(ran on 1.13.2)
+librosa
+wavinfo
 
 For the conversion of sample rate you can run the file conversion.py to downsample your data. You can change the directory to the input_path files and out_path.
-
 
 The training can be done by running
 python run_training.py
